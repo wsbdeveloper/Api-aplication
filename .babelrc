@@ -1,0 +1,13 @@
+//configurar
+{
+    "presets" :[
+        "@babel/preset-env"
+    ],
+    "plugins" : [
+        "@babel/plugin-proposal-object-rest-spread"
+    ]
+
+    //entender qual o ambiente que estamos trabalhando
+    //nesse caso o browser ele interpreta vários modes de desenvolvimento
+    //caso node.js já vem com muitos interpretadores não importa o ambiente!   
+}
