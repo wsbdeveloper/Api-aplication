@@ -4,7 +4,8 @@
         "@babel/preset-env"
     ],
     "plugins" : [
-        "@babel/plugin-proposal-object-rest-spread"
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-transform-async-to-generator"
     ]
 
     //entender qual o ambiente que estamos trabalhando
