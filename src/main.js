@@ -1,16 +1,15 @@
-/*const minhaPromisse = () => new Promise((resolve,reject) => {
+//=============================================== Exemplos ES6 ===============================================
+const minhaPromisse = () => new Promise((resolve,reject) => {
     setTimeout(() => {resolve("OK")},2000); 
 });
 
-/*
 minhaPromisse()
     .then(response => {
         console.log(response);
     });
-*/
+
 
 //acima do es6+
-/*
 async function executaPromisse(){
     console.log(await minhaPromisse());
     console.log(await minhaPromisse());
@@ -18,8 +17,11 @@ async function executaPromisse(){
 }
 
 executaPromisse();
-*/
-/*import axios from 'axios';
+
+//====================================================================================================================
+
+//Axios para buscar API REST
+import axios from 'axios';
 
 class Api {
     static async getuserInfo(username){
@@ -32,13 +34,16 @@ class Api {
     }
 }
 
-Api.getuserInfo('username');*/
+Api.getuserInfo('username');
 
 
-//const delay = (text,seconds) => new Promise(resolve => setTimeout(resolve => console.log(text), seconds * 1000));
-//const delay = () => new Promise(resolve => setTimeout(resolve, 1000));
+//====================================================================================================================
 
-/*async function umPorSegundo() {
+
+const delay = (text,seconds) => new Promise(resolve => setTimeout(resolve => console.log(text), seconds * 1000));
+const delay = () => new Promise(resolve => setTimeout(resolve, 1000));
+
+async function umPorSegundo() {
     try{
          await delay();
          console.log('one second');
@@ -58,8 +63,3 @@ Api.getuserInfo('username');*/
 }
 
 umPorSegundo();
-*/
-
-
-
-
