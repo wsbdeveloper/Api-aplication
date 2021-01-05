@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "@babel/plugin-transform-async-to-generator": "^7.4.0",
-    "axios": "^0.18.0"
+    "axios": "^0.21.1"
   }
 }
